@@ -1,0 +1,12 @@
+<?php
+
+function dancer_preprocess_link(&$vars) {
+  // If title set and not empty dont do anything
+  if (isset($vars['options']['attributes']['title']) && !empty($vars['options']['attributes']['title'])) {
+    return;
+  }
+
+  //$text = $vars['text'];
+  // Use the link text as the title
+  //$vars['options']['attributes']['title'] = strip_tags($text);
+}

@@ -1,0 +1,9 @@
+name = Dander
+description = Dancer hooks
+core = 7.x
+package = Other
+
+files[] = dancer.install
+files[] = dancer.module
+
+
